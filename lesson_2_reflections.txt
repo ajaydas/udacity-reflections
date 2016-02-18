@@ -1,0 +1,27 @@
+This file contains reflections for lesson 2 of Git and GitHub course at Udacity
+
+What happens when you initialize a repository? Why do you need to do it?
+
+    Initializing a repository creates a empty Git repository structure for performing version control of all the files in the folder from which Git was initialized.
+    I needed to do it as it is necessary first step before any files to be setup for version control.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+    Staging area has all the files that will be commited as a group to the repository.
+    Any file not part of a staging area will not be tracked or commited during the commit.
+    The value of staging area is that it provides a logical grouping of files before actual commit takes place.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?
