@@ -15,13 +15,34 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+    When the files are in staging area I can compare the difference between working directory, staging and repository to find out what exactly is getting updated. After the comarison I can be sure that only the right changes are saved into the repository.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+    Some situations when branches would be helpful is when I have a experimental feature to try out and do not want to impact the main stable version.
+    Branches can also help if I want to maintain a copy of the code in a different language.
+    This will also help if I want to release a version with limited features.
+    Branches give confidence that any changes made to a branch does not impact the main repository.
+    This will help me to make changes without being afraid of breaking anything.
+
 How do the diagrams help you visualize the branch structure?
+
+    The diagrams helped in understanding the relationship between different commits and branches.
+    This helped in understanding the hierarchy between each commit and their visibility through branches.
+    This also helped in understanding the "headless state" error messages I got when checking out an earlier commit in a branch and the suggestion to create a new branch to preserve changes made.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+    The result of merging two branches together is that the additions in each branch is included in the final and deletions are excluded.
+    If there is a dependency in one of the branch for a specific file then there is error in merging and the mismatch can be fixed and merge tried again.
+    Representing the merge diagram the way we do provides a graphical outline of the change history.
+    This helps linking the commits or investigate any particular commit during development and bug fixes.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+    Git's automatic merginf helps a lot in merging files which do not have any conflicts.
+    When there are conflicts Git alerts that this needs to be addressed before merging and gives a chance for the developers to have a look at the code and make adjustments and then go ahead with the merge.
+    This is very helpful in making sure that the code is functional after the manual merge and cleanup.
