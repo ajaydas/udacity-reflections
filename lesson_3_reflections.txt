@@ -1,1 +1,27 @@
 When would you want to use a remote repository rather than keeping all your work local?
+
+    Rather than keeping all my work local, I would want to use a remote repository when I would need to collaborate with other people on any project.
+    Remote repository helps everyone connect to a common source files with all recent changes and add their own changes.
+    I would also use remote repository if I would like to share my work with others so that I can get any feedback.
+    Other people can use my work and change it for their own needs.
+    Remote repository also helps if I need to work on the same project from a different computer at a different location.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+    Rather than Git automatically staying up-to-date with my remote repository, I want to always manually pull changes because it helps me evaluate if I need to incorporate the changes on the remote repository into the project.
+    Going through the remote repository log if I feel that I would like to try out the changes made to remote repository without affecting my current project, I can always create a branch and then pull changes.
+    This also helps in preventing any unwanted changes getting into my project and breaking things.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+    Forks are clones made inside GitHub from existing repositories in GitHub to my account which provides attribution to the original author.
+    Forks are used when I want to work on a project I found on GitHub where I don't have permission to make changes but would like to credit the original author.
+
+    Clones are copies of repositories from existing repositories in GitHub to my local machine.
+    Clones are used when I want to work on a project I found on GitHub, but don't want to add it to my account on GitHub.
+    I can also use cloning when I don't have a GitHub account and want to work on an existing project.
+    Cloning is also used for importing any forks done inside GitHub to local computer.
+
+    Branches are copies of existing repository in the local machine.
+    Branches are used if I would want to try any experimental features and don't want to impact the main project.
+    In the future if I feel that I have finished experimenting with the branch, I can then merge the branch with the main project after resolving any conflicts.
