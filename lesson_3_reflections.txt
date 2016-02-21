@@ -25,3 +25,12 @@ Describe the differences between forks, clones, and branches. When would you use
     Branches are copies of existing repository in the local machine.
     Branches are used if I would want to try any experimental features and don't want to impact the main project.
     In the future if I feel that I have finished experimenting with the branch, I can then merge the branch with the main project after resolving any conflicts.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    The benefit of having a copy of the last known state of the remote stored
+    locally as origin/master is to freely make changes and commiting and have
+    a record of how much the current commit history is ahead of the remote.
+    Also if there has been any updates to the remote after pull request,
+    then the local copy can be compared with any updates to the remote and merged as needed.
+    
