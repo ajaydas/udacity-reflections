@@ -33,4 +33,14 @@ What is the benefit of having a copy of the last known state of the remote store
     a record of how much the current commit history is ahead of the remote.
     Also if there has been any updates to the remote after pull request,
     then the local copy can be compared with any updates to the remote and merged as needed.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+    Without using Git or GitHub, I can collaborate by commparing different versions of files side by side using file comparison techniques.
+    Also there are track changes feature in certain document creation softwares that can be used.
+    This method is straight forward and simple and I will not have to remember Git or gitHub commands and structure.
+    The downside is that I will lose the granular change history and option to revert back changes if something goes wrong.
+    All collaborators may not be able to make changes at the same time and they would have to change things in sequence to avoid merge conflict.
+    After all changes are made and accepted there is no record of previous versions and changes which are lost forever unless I save a copy at each version change.
+    It will be harder to make experimental changes and then merge back to the main as there will be a lot of changes in both versions each of which have to be inspected and approved.
     
